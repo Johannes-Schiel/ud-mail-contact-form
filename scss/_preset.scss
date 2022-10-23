@@ -1,0 +1,50 @@
+// In dieser Datei werden einfache Presets geladen, diese Datei kann
+// sofen das Projekt für ein wirkliches Projekt als Grundlage
+// dient einfach gelöscht werden.
+
+$prime: #ff6e48;
+$ciBlue: #00fff1;
+$ciRed: #ff00aa;
+$ciWhite: #ffffff;
+$ciGreen: #46fcb4;
+$ciSecond: #0c1016;
+
+$roboto: 'Roboto';
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Regular.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: $roboto;
+	src: url('https://assets.codepen.io/907368/Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+body,
+html {
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $ciSecond;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	color: $ciWhite;
+	font-family: $roboto;
+}
+
+* {
+	box-sizing: border-box;
+}

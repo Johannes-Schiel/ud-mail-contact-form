@@ -1,0 +1,17 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
+	},
+	"devDependencies": {
+		"nuxt": "3.0.0-rc.8",
+		"sass": "^1.54.5"
+	},
+	"dependencies": {
+		"nodemailer": "^6.8.0",
+		"validator": "^13.7.0"
+	}
+}
